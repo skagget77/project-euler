@@ -27,7 +27,7 @@ def main():
     """ Prints the sum of all prime numbers smaller than 2 million.
 
     """
-    print 'Answer: %d' % sum(sieve(2000000))
+    print 'Answer: %d' % sum(primes(2000000))
 
 if __name__ == '__main__':
     duration = timeit.timeit(main, number=1)
