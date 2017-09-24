@@ -28,7 +28,7 @@ def main():
         n += 1
 
     print 'Answer: %d' % primes[-1]
-        
+  
 
 if __name__ == '__main__':
     duration = timeit.timeit(main, number=1)
